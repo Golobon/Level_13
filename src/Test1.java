@@ -85,7 +85,7 @@ public class Test1 {
     }
 
     public static void finish() {
-        System.out.println("\"Всего хорошего!\", - говорит кролилап и машет крысолапкой..");
+        System.out.println("\"Всего хорошего!\", - говорит кролилап и машет крысолапкой...");
     }
 
     public static String scan() {
