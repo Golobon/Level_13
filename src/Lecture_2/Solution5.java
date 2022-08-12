@@ -5,8 +5,9 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 public class Solution5 {
+    public static ArrayList <String> strings;
     public static void main(String[] args) throws Exception {
-        ArrayList <String> strings  = new ArrayList<String>();
+        strings  = new ArrayList<String>();
         BufferedReader bR = new BufferedReader(new InputStreamReader(System.in));
         int min = 0;
         int max = 0;
