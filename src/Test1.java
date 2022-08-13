@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Test1 {
@@ -66,17 +68,17 @@ public class Test1 {
     }
 
     public static void createKrol() {
-        String[] discribe = new String[3];
+        List<String> list = new ArrayList<>(3);
         System.out.println("Какого цвета глазки у Кроля?");
-        discribe[0] = scan();
+        list.add(scan());
         System.out.println("Какого цвета лапки Кроля?");
-        discribe[1] = scan();
+        list.add(scan());
         System.out.println("Какого цвета шерстка Кроля?");
-        discribe[2] = scan();
+        list.add(scan());
         System.out.println("Итак, у нас получился такой Кроль:\n" +
-                "\nЦвет глаз: " + discribe[0] + "\n" +
-                "Цвет лапок: " + discribe[1] + "\n" +
-                "Цвет шерстки: " + discribe[2] + "\n" +
+                "\nЦвет глаз: " + list.get(0) + "\n" +
+                "Цвет лапок: " + list.get(1) + "\n" +
+                "Цвет шерстки: " + list.get(2) + "\n" +
                 "\n" + "А вот и сам Кроль: " + "\n\n" +
                "  (\\…/)" + "\n" +
                " (=’;'=)" + "\n" +
