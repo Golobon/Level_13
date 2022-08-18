@@ -17,7 +17,7 @@ public class Solution1 {
         list.remove(2);
         System.out.println(list);
 
-        for (int i = list.size() - 1; i >= 0; i--) {
+        for (int i = list.size(); i-- > 0;) {
             System.out.println(list.get(i));
         }
     }
