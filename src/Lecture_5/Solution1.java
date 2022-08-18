@@ -11,7 +11,6 @@ public class Solution1 {
         for (int i = 0; i < 5; i++) {
             String str = bR.readLine();
             list.add(str);
-
         }
         System.out.println(list);
 
