@@ -91,8 +91,7 @@ public class Test1 {
     }
 
     public static String scan() {
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
+        String input = new Scanner(System.in).nextLine();
         return input;
     }
 
